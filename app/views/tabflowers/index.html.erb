@@ -1,0 +1,31 @@
+<% i=0 %>
+
+<table style="border:solid 0px #F60" width="550px">
+  <tr>
+    <% @tabflowers.each do |tabflower| %>
+    <td>
+    <a href="/tabflowers/show?id=<%=tabflower.id %>" >
+     <img src="/images/<%= tabflower.fImg %>.jpg" alt="" align="center" border="0" width="100px"></a><br/>
+      名称：<%= tabflower.fName %><br/>
+      <%= tabflower.fHanyi %><br>
+      市场价格：<%= tabflower.fSPrice %>
+      <br>
+     <a href="/tabflowers/addcart?id=<%=tabflower.id %>"><img src="/index/i32.gif" alt="" border="0"></a>
+    </td>
+<% i=i+1 %>
+<%if i%3==0 then%>
+</tr>
+   <tr>
+  <%end %>
+<% end %>
+   </tr>
+    <tr><td>共<%=@totalJY %>页，共<%= @totalTS %>条，每页显示<%=@perPage %>条</td><td><%= will_paginate @tabflowers,:prev_label=> "上一页",:next_label=>:"下一页" %></td></tr>
+</table>
+        <% if @tabuser!=nil then %>
+    <% if @tabuser.uName=="dcy" then %>
+<%= link_to '添加商品', new_tabflower_path,:class=>"registerDivBtn" %>
+<% end %>
+    <% end %>
+<br />
+
+

@@ -1,0 +1,23 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  id: 
+  fName: 
+  fHanyi: MyText
+  fSPrice: 1.5
+  fImg: 
+  fDetails: MyText
+  fCailiao: MyText
+  fBaoZ: MyText
+  fPprice: 1.5
+
+two:
+  id: 
+  fName: 
+  fHanyi: MyText
+  fSPrice: 1.5
+  fImg: 
+  fDetails: MyText
+  fCailiao: MyText
+  fBaoZ: MyText
+  fPprice: 1.5

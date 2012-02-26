@@ -1,0 +1,38 @@
+
+<div class="registerbg">
+  <div class="registertext">
+    <%=form_tag :action=>:registerUser  do %>
+      <%= text_field :tabuser,:name,:class=>"inputText",:size=>"12" %>
+      <div class="registerDivTab"></div>
+       <%= text_field :tabuser,:pass,:class=>"inputText",:size=>"14",:type=>"password" %>
+      <div class="registerDivTab"></div>
+      <input type="password" size="14"  class="inputText"/>
+      <div class="registerDivTab"></div>
+     <%= text_field :tabuser,:tname,:class=>"inputText",:size=>"27" %>
+      <div class="registerDivTab"></div>
+      <input type="text" size="27"  class="inputText"/>
+      <div class="registerDivTab"></div>
+      <input type="text" size="27"  class="inputText"/>
+      <div class="registerDivTab"></div>
+      <input type="text" size="27"  class="inputText"/>
+      <div class="registerDivTab"></div>
+      <%= text_field :tabuser,:address,:class=>"inputText",:size=>"27" %>
+      <div class="registerDivTab"></div>
+      <input type="text" size="27"  class="inputText"/>
+      <div class="registerDivTab"></div>
+      <input type="text" size="27"  class="inputText"/>
+      <div class="registerDivTab"></div>
+      <%= text_field :tabuser,:code,:class=>"inputText",:size=>"27" %>
+      <div class="registerDivTab"></div>
+      <%= text_field :tabuser,:phone,:class=>"inputText",:size=>"27" %>
+      <div class="registerDivTab"></div>
+      <%= text_field :tabuser,:email,:class=>"inputText",:size=>"27" %>
+      <div class="registerDivTab"></div>
+      <%= text_field :tabuser,:type,:class=>"inputText",:size=>"27" %>
+      <div class="registerDivTab"></div>
+        <%= submit_tag '提交',:class=>"registerDivBtn"%>
+      <input type="button"  class="registerDivBtn" value="取消"/>
+              <div><h2><%= notice %></h2></div>
+    <% end %>
+  </div>
+</div>

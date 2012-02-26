@@ -1,0 +1,23 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  id: 
+  uName: 
+  uPass: 
+  uTname: 
+  uAddress: 
+  uCode: 
+  uPhone: 
+  uEmail: 
+  uAddressType: 
+
+two:
+  id: 
+  uName: 
+  uPass: 
+  uTname: 
+  uAddress: 
+  uCode: 
+  uPhone: 
+  uEmail: 
+  uAddressType: 

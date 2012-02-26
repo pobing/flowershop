@@ -1,0 +1,24 @@
+<div class="detailsBg">
+
+  <div class="detailsBgLeft">
+
+编号：<%= @tabflower.id %><div style="height:8px"></div>
+名称：<%= @tabflower.fName %><div style="height:8px"></div>
+花语：<%= @tabflower.fHanyi %><div style="height:8px"></div>
+花才：<%= @tabflower.fCailiao %><div style="height:8px"></div>
+包装：<%= @tabflower.fBaoZ %><div style="height:8px"></div>
+详细信息： <%= @tabflower.fDetails %><div style="height:8px"></div>
+市场价格： <%= @tabflower.fSPrice %><div style="height:8px"></div>
+会员价格： <%= @tabflower.fPprice %><div style="height:8px"></div>
+    <div style="height:8px"></div>
+<div style="height:8px"></div>
+   <%= link_to '放入购物车',{:action=>'addcart' ,:id=>@tabflower.id },:class=>"registerDivBtn"%>
+   <%= link_to '推荐给朋友',{:action=>'tjFriends'},:class=>"registerDivBtn" %>
+   <%= link_to '返回鲜花页面',{:action=>'index'},:class=>"registerDivBtn" %>
+  </div>
+  <div class="detailsBgRight"><img src="/images/<%= @tabflower.fImg %>.jpg" width="250px"></div>
+
+</div>
+
+
+

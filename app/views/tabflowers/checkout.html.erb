@@ -1,0 +1,49 @@
+<div style="border:solid 1px #00994D; ">
+  <table width="540px" border="0">
+<tr class="cartBg">
+  <td class="cartBgDivTab">商品编号</td>
+  <td class="cartBgDivTab">商品名称</td>
+  <td class="cartBgDivTab">商品数量</td>
+  <td class="cartBgDivTab">市场价格</td>
+  <td class="cartBgDivTab">会员价格</td>
+  <td class="cartBgDivTab"></td>
+  <td class="cartBgDivTab"></td>
+</tr>
+  <% if @tabflower_shop!=nil then %>
+  <% @tabflower_shop.each do |tabflower,amount|%>
+            <%form_tag :action=>:updatecart  do %>
+            <tr>
+<td><%=tabflower.id  %><%= text_field :tabflower,:id,:size=>0 ,:type=>"hidden" %></td>
+    <td><%=tabflower.fName  %></td>
+    <td><%= amount %></td>
+    <td><%= tabflower.fPprice %></td>
+    <td><%= tabflower.fSPrice %></td>
+    <td>
+    </td>
+    <td>     
+      <a href="/tabflowers/deleteFlower?id=<%=tabflower.id %>" class="registerDivBtn">删除</a>
+    </td>
+    </tr>
+        <% end %>
+      <% end %>
+        <tr>
+            <td></td>
+            <td></td>      
+            <td>合计：</td>
+            <td><%= @totalfp %></td>
+            <td><%= @totalfs %></td>
+        </tr>
+  <% else %>
+  购物车已清空！
+  <% end %>
+    </tr>
+<tr>
+  <%= notice %>
+  <td colspan="2">
+ <%= link_to "清空购物车" ,{:action=>"emptyFlower"},:class=>"registerDivBtn" %> </td>
+ <td colspan="2"><%= link_to '继 续 购 物',{:action=>'index'},:class=>"registerDivBtn" %></td>
+  <td colspan="2"><%= link_to '收银台结账',{:action=>'JZ'},:class=>"registerDivBtn" %></td>
+    </tr>
+       </table>
+</div>
+

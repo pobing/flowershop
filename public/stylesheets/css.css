@@ -1,0 +1,145 @@
+body {
+	background: #666666;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #000000;
+}
+.twoColFixLtHdr #container {
+	width: 763px;
+	background: #FFFFFF;
+	margin: 0 auto;
+	border: 1px solid #000000;
+	text-align: left;
+}
+.twoColFixLtHdr #header {
+	background: #DDDDDD;
+}
+.twoColFixLtHdr #sidebar1 {
+	float: left;
+	width: 180px;
+	background: #EBEBEB;
+}
+.twoColFixLtHdr #mainContent {
+	margin: 0 0px 0 180px;
+	padding: 10px 10px;
+}
+.twoColFixLtHdr #footer {
+	padding: 0 10px 0 0px;
+	background:#DDDDDD;
+}
+.twoColFixLtHdr #footer p {
+	margin: 0;
+	padding: 10px 0;
+}
+.fltrt {
+	float: right;
+	margin-left: 8px;
+}
+.fltlft {
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.bg {
+	background-image:url(/index/HeadImg1.jpg);
+	background-repeat:no-repeat;
+}
+.Appbtn{
+ background-image:url(/index/i17.gif);
+	background-repeat:no-repeat;
+  border:0;
+  width:54px;
+  height:22px;
+}
+.AppbtnRegister{
+ background-image:url(/index/i18.gif);
+	background-repeat:no-repeat;
+  border:0;
+  width:80px;
+  height:22px;
+}
+.divHead1 {
+	padding-left:140px;
+	padding-top:98px;
+}
+.divHead2 {
+	padding-left:10px;
+}
+.divHead2 ul li {
+	list-style:none;
+	float:left;
+ background-image:/index/i13.gif;
+	width:73px;
+}
+.link {
+	FONT-FAMILY: "����";
+	COLOR: #990000;
+	FONT-SIZE: 12px;
+	TEXT-DECORATION: none;
+}
+.divHead3 {
+	padding-left:660px;
+}
+
+
+.divleftLogin1 {
+	background-image:url(/images/loginSuccess.jpg);
+	width:181px;
+	height:304px;
+	background-repeat:no-repeat;
+}
+.divleftLogin1CK {
+	padding-top:60px;
+	padding-left:40px;
+}
+.divleftLogin1Cart{
+	padding-left:35px;
+	padding-top:170px;
+}
+
+
+.divSearchName{
+  background-image:url(/index/i14.gif);
+  height:17px;
+}
+
+.divleftLogin {
+	background-image:url(/index/LeftLogin.jpg);
+	height:306px;
+	background-repeat:no-repeat;
+}
+.divleft1 {
+	padding-left:63px;
+	padding-top:64px;
+}
+.divleftBtn {
+	padding-left:20px;
+	padding-top:10px;
+}
+.divleftCart{
+	padding-left:30px;
+	padding-top:95px;
+	}	
+	.divleftShopp{
+			background-image:url(/index/leftShopp.jpg);
+	        height:423px;
+	        background-repeat:no-repeat;
+			padding-top:20px;
+			padding-left:5px;
+		}		
+		.divBottom{
+			background-image:url(/index/bottom.jpg);
+			width:764px;
+			height:29px;
+			background-repeat:no-repeat;
+			}
+.divTab {
+	height:10px;
+
+ 

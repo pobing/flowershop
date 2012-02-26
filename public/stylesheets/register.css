@@ -1,0 +1,108 @@
+.registerbg {
+	background-image:url(/register/register.jpg);
+	width:437px;
+	height:405px;
+	background-repeat:no-repeat;
+}
+.registertext {
+	padding-left:130px;
+	padding-top:29px;
+}
+.inputText {
+	border:solid 1px #FFB786;
+	background-color:#CCC;
+}
+.registerDivTab {
+	height:5px;
+}
+.registerDivBtn {
+	background-color:#FFB786;
+	border:solid 1px #FFB786;
+  padding-top:3px;
+  padding-bottom:3px;
+  text-decoration:none;
+
+}
+
+ .detailsBg{
+	background-image:url(/details/flowersDetails.jpg);
+	background-repeat:no-repeat;
+	width:581px;
+	height:328px;
+	}
+  .detailsDivTab{
+    height:5px;
+  }
+	.detailsBgLeft{
+		padding-left:10px;
+		padding-top:30px;
+		}
+		.detailsBgRight{
+			padding-left:298px;
+			margin-top:-215px;}
+
+.cartBg {
+background-color:#FFB786;
+  height:20px;
+  margin-bottom:5px;
+}
+    .cartBgDivTab{
+  color:white;
+  display:inline;
+   padding-left:5px;
+}
+    .cartBgDivWidth{
+  display:inline;
+padding-left:20px;
+}
+.cartDetails {
+	padding-left:5px;
+	padding-top:5px;
+}
+.cartDivBian {
+	display:inline;
+	padding-left:70px;
+}
+.cartDivShu {
+	display:inline;
+	padding-left:50px;
+}
+.cartDivSprice {
+	display:inline;
+	padding-left:60px;
+}
+.cartDivHprice {
+	display:inline;
+	padding-left:50px;
+}
+.cartDivgengxin {
+	display:inline;
+	padding-left:30px;
+}
+.cartDivshanchu {
+	display:inline;
+	padding-left:10px;
+}
+.cartBtnGeng {
+	background-color:#FFB786;
+	border:solid 1px #FFB786;
+	color:#FFF;
+}
+.cartDivHJ {
+	padding-left:180px;
+	padding-top:2px;
+}
+.cartDivHJS {
+	padding-left:30px;
+	display:inline;
+}
+.cartDivHJH {
+	padding-left:65px;
+	display:inline;
+}
+.cartDivBottom {
+	background-image:url(/cart/cartbottom.jpg);
+
+	height:93px;
+	background-repeat:no-repeat;
+}
